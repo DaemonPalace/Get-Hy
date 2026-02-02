@@ -3027,7 +3027,7 @@
                 {
                   "id": "79",
                   "name": "cube--C1",
-                  "position": {"x": -0.6022, "y": -2.90628, "z": -0.81088},
+                  "position": {"x": 1.3978, "y": -2.90628, "z": -0.81088},
                   "orientation": {"x": 0.6274, "y": 0.22368, "z": 0.32185, "w": 0.67287},
                   "shape": {
                     "type": "box",
@@ -3035,7 +3035,7 @@
                     "stretch": {"x": 1, "y": 1, "z": 1},
                     "settings": {
                       "isPiece": false,
-                      "size": {"x": 2, "y": 4, "z": 2},
+                      "size": {"x": 2, "y": 2, "z": 2},
                       "isStaticBox": true
                     },
                     "textureLayout": {
