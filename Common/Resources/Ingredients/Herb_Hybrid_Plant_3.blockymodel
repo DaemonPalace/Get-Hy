@@ -2443,15 +2443,15 @@
                         {
                           "id": "68",
                           "name": "cube--C2",
-                          "position": {"x": 2.3114, "y": 0.62594, "z": 4.24988},
+                          "position": {"x": 2.03205, "y": 0.71301, "z": 4.35941},
                           "orientation": {"x": -0.0214, "y": 0.19504, "z": 0.00426, "w": 0.98055},
                           "shape": {
                             "type": "box",
-                            "offset": {"x": 0.3, "y": 0, "z": 2.5},
+                            "offset": {"x": 0.6, "y": 0, "z": 3.5},
                             "stretch": {"x": 1, "y": 1, "z": 1},
                             "settings": {
                               "isPiece": false,
-                              "size": {"x": 2, "y": 0, "z": 5},
+                              "size": {"x": 2, "y": 0, "z": 3},
                               "isStaticBox": true
                             },
                             "textureLayout": {
@@ -2471,12 +2471,12 @@
                                 "angle": 0
                               },
                               "left": {
-                                "offset": {"x": 0, "y": 0},
+                                "offset": {"x": 2, "y": 0},
                                 "mirror": {"x": false, "y": false},
                                 "angle": 0
                               },
                               "top": {
-                                "offset": {"x": 33, "y": 25},
+                                "offset": {"x": 33, "y": 23},
                                 "mirror": {"x": true, "y": true},
                                 "angle": 0
                               },
@@ -2495,11 +2495,11 @@
                         {
                           "id": "69",
                           "name": "cube--C3",
-                          "position": {"x": 2.61408, "y": 0.71318, "z": 6.28718},
+                          "position": {"x": 2.14887, "y": 0.93111, "z": 6.47061},
                           "orientation": {"x": 0, "y": 0.19509, "z": 0, "w": 0.98079},
                           "shape": {
                             "type": "box",
-                            "offset": {"x": 0.5, "y": 0, "z": 2.5},
+                            "offset": {"x": 1.2, "y": 0, "z": 4.5},
                             "stretch": {"x": 1, "y": 1, "z": 1},
                             "settings": {
                               "isPiece": false,
