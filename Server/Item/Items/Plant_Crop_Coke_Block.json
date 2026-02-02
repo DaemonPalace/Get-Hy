@@ -1,0 +1,183 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Plant_Crop_Coke_Block.name"
+  },
+  "Parent": "Plant_Crop_Aubergine_Block",
+  "BlockType": {
+    "RandomRotation": "YawStep1",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Resources/Plants/Seeds.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Plants/Seeds_Textures/Cocaine_Seed.png",
+        "Weight": 1
+      }
+    ],
+    "Flags": {
+      "IsStackable": false
+    },
+    "State": {
+      "Definitions": {
+        "Stage1": {
+          "CustomModel": "Resources/Ingredients/Cocaine_Tree_1.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Ingredients/Plant_Crop_Coca_3.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 0.75,
+          "HitboxType": "Plant_Large",
+          "Gathering": {
+            "Soft": {
+              "DropList": "Drops_Plant_Crop_Coca_Stage1"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#74a52d"
+        },
+        "Stage2": {
+          "CustomModel": "Resources/Ingredients/Cocaine_Tree_2.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Ingredients/Plant_Crop_Coca_3.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 0.6,
+          "HitboxType": "Plant_Large",
+          "Gathering": {
+            "Soft": {
+              "DropList": "Drops_Plant_Crop_Coca_Stage1"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#74a52d"
+        },
+        "StageFinal": {
+          "CustomModel": "Resources/Ingredients/Cocaine_Tree_3.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Ingredients/Plant_Crop_Coca_3.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 0.75,
+          "HitboxType": "Plant_Medium",
+          "InteractionHint": "server.interactionHints.harvest",
+          "Interactions": {
+            "Use": {
+              "Interactions": [
+                {
+                  "Type": "HarvestCrop"
+                }
+              ]
+            }
+          },
+          "Gathering": {
+            "Harvest": {
+              "DropList": "Drop_Plant_Crop_Coca_FinalStage"
+            },
+            "Soft": {
+              "DropList": "Drop_Plant_Crop_Coca_FinalStage"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#1e951c"
+        }
+      }
+    },
+    "Particles": [
+      {
+        "SystemId": "Plant_Eternal",
+        "DetachedFromModel": false
+      }
+    ],
+    "Farming": {
+      "Stages": {
+        "Default": [
+          {
+            "Duration": {
+              "Min": 10500,
+              "Max": 10500
+            },
+            "Type": "BlockState",
+            "State": "default"
+          },
+          {
+            "Duration": {
+              "Min": 37950,
+              "Max": 37950
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage1"
+          },
+          {
+            "Duration": {
+              "Min": 37950,
+              "Max": 37950
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage2"
+          },
+          {
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow_Stage_Complete",
+            "State": "StageFinal"
+          }
+        ],
+        "Harvested": [
+          {
+            "Duration": {
+              "Min": 37950,
+              "Max": 37950
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage2"
+          },
+          {
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow_Stage_Complete",
+            "State": "StageFinal"
+          }
+        ]
+      },
+      "StartingStageSet": "Default",
+      "ActiveGrowthModifiers": [
+        "Fertilizer",
+        "Water",
+        "LightLevel"
+      ],
+      "StageSetAfterHarvest": "Harvested"
+    },
+    "Gathering": {
+      "Soft": {
+        "DropList": "Drop_Plant_Crop_Coca_Stage1"
+      }
+    }
+  },
+  "Quality": "Junk_Quality",
+  "Icon": "Icons/ItemsGenerated/Plant_Crop_Coke_Block.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Categories": [
+    "Blocks.Plants"
+  ]
+}

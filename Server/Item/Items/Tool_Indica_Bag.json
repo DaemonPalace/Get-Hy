@@ -1,0 +1,60 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Indica_Bag.name",
+    "Description": "server.items.Indica_Bag.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Indica_Bag.png",
+  "Categories": [
+    "Get_Hy_Category.Herb",
+    "Items.Tools"
+  ],
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      0,
+      245,
+      0
+    ],
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Model": "Items/Tools/Bag/Indica_Bag.blockymodel",
+  "Texture": "Items/Tools/Bag/Indica_Bag.png",
+  "MaxStack": 50,
+  "Scale": 1.65,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Empty_Bag",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Herb_Bud",
+        "Quantity": 15
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Rolling_Station",
+        "Categories": [
+          "Rolling_Station_Paraphernalia"
+        ]
+      }
+    ],
+    "RequiredMemoriesLevel": 2,
+    "TimeSeconds": 1
+  },
+  "Quality": "Junk_Quality",
+  "Interactions": {
+    "Secondary": "Block_Secondary"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Coke_Burned_Leave.name",
+    "Description": "server.items.Coke_Burned_Leave.description"
+  },
+  "Consumable": false,
+  "Icon": "Icons/ItemsGenerated/Coke_Burned_Leave.png",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      28,
+      100,
+      0
+    ],
+    "Translation": [
+      -4,
+      -12
+    ]
+  },
+  "Texture": "Resources/Ingredients/Coke_Burned_Leave.png",
+  "Model": "Resources/Ingredients/Coke_Burned_Leave.blockymodel",
+  "Quality": "Junk_Quality",
+  "Categories": [
+    "Get_Hy_Category.Coke",
+    "Items.Ingredients"
+  ],
+  "ResourceTypes": [
+    {
+      "Id": "Vegetables"
+    }
+  ],
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Crop"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Foliage",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Coke_Leave"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Furnace"
+      }
+    ],
+    "TimeSeconds": 4
+  }
+}

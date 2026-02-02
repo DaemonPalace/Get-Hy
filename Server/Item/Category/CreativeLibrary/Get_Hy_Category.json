@@ -1,0 +1,23 @@
+{
+  "Icon": "Icons/ItemCategories/Joints.png",
+  "Order": 3,
+  "Children": [
+    {
+      "Id": "Herb",
+      "Name": "server.ui.get_hy_category.herb",
+      "Icon": "Icons/ItemCategories/Herb.png"
+    },
+    {
+      "Id": "Coke",
+      "Name": "server.ui.get_hy_category.coke",
+      "Icon": "Icons/ItemCategories/Coke.png"
+    },
+    {
+      "Id": "Miscellaneous",
+      "Name": "server.ui.get_hy_category.misc",
+      "Icon": "Icons/ItemCategories/Misc.png"
+    }
+  ],
+  "Id": "Get_Hy_Category",
+  "Name": "Get Hy!"
+}

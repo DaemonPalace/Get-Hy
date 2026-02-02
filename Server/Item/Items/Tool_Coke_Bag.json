@@ -1,0 +1,58 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Coke_Bag.name",
+    "Description": "server.items.Coke_Bag.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Coke_Bag.png",
+  "Categories": [
+    "Get_Hy_Category.Coke",
+    "Items.Tools"
+  ],
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      0,
+      245,
+      0
+    ],
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Model": "Items/Tools/Bag/Coke_Bag.blockymodel",
+  "Texture": "Items/Tools/Bag/Coke_Bag.png",
+  "MaxStack": 50,
+  "Scale": 1.65,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Empty_Bag",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Processed_Coke",
+        "Quantity": 5
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Rolling_Station",
+        "Categories": [
+          "Rolling_Station_Paraphernalia"
+        ]
+      }
+    ],
+    "RequiredMemoriesLevel": 2,
+    "TimeSeconds": 1,
+    "OutputQuantity": 1
+  },
+  "Quality": "Junk_Quality"
+}

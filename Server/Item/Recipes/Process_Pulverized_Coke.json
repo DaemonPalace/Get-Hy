@@ -1,0 +1,25 @@
+{
+  "Input": [
+    {
+      "ItemId": "Ingredient_Pulverized_Coke",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Ingredient_Processed_Coke",
+    "Quantity": 1
+  },
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Processorbench"
+    }
+  ],
+  "TimeSeconds": 4,
+  "Output": [
+    {
+      "ItemId": "Ingredient_Processed_Coke"
+    }
+  ],
+  "OutputQuantity": 1
+}

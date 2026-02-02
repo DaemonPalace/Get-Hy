@@ -1,0 +1,59 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Empty_Bag.name",
+    "Description": "server.items.Empty_Bag.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Empty_Bag.png",
+  "Categories": [
+    "Get_Hy_Category.Miscellaneous",
+    "Items.Tools"
+  ],
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      0,
+      245,
+      0
+    ],
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Model": "Items/Tools/Bag/Bag.blockymodel",
+  "Texture": "Items/Tools/Bag/Bag.png",
+  "MaxStack": 4,
+  "Scale": 1.4,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Leather_Medium",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Leather_Light",
+        "Quantity": 4
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 1,
+    "RequiredMemoriesLevel": 2,
+    "BenchRequirement": [
+      {
+        "Id": "Rolling_Station",
+        "Type": "Crafting",
+        "Categories": [
+          "Rolling_Station_Paraphernalia"
+        ]
+      }
+    ]
+  },
+  "Quality": "Common"
+}

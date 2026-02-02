@@ -1,0 +1,24 @@
+{
+  "Input": [
+    {
+      "ItemId": "Coke_Burned_Leave",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Ingredient_Pulverized_Coke",
+    "Quantity": 1
+  },
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Salvagebench"
+    }
+  ],
+  "TimeSeconds": 4,
+  "Output": [
+    {
+      "ItemId": "Ingredient_Pulverized_Coke"
+    }
+  ]
+}

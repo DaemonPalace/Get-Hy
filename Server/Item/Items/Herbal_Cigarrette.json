@@ -1,0 +1,158 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Herbal_Cigarrette.name",
+    "Description": "server.items.Herbal_Cigarrette.description"
+  },
+  "Quality": "Junk_Quality",
+  "Icon": "Icons/ItemsGenerated/Herbal_Cigarrette.png",
+  "Categories": [
+    "Get_Hy_Category.Herb",
+    "Items.Foods"
+  ],
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "HitboxType": "Food_Small",
+    "CustomModel": "Resources/Ingredients/Herbal_Cigarrette.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Ingredients/Herbal_Cigarrette.png",
+        "Weight": 1
+      }
+    ],
+    "RandomRotation": "YawStep90",
+    "Gathering": {
+      "Harvest": {},
+      "Soft": {}
+    },
+    "Light": {
+      "Color": "#421"
+    },
+    "VariantRotation": "None",
+    "RotationYawPlacementOffset": "Ninety",
+    "Particles": [
+      {
+        "SystemId": "Smoke_Black",
+        "Scale": 0.3,
+        "Color": "#757070",
+        "PositionOffset": {
+          "Z": 0,
+          "Y": 1
+        }
+      }
+    ]
+  },
+  "ItemLevel": 10,
+  "ResourceTypes": [
+    {
+      "Id": "Foods"
+    }
+  ],
+  "Utility": {
+    "Compatible": true
+  },
+  "IconProperties": {
+    "Scale": 0.65,
+    "Rotation": [
+      0,
+      250,
+      320
+    ],
+    "Translation": [
+      0,
+      -5.4
+    ]
+  },
+  "Scale": 0.8,
+  "Interactions": {
+    "Secondary": "Root_Secondary_Consume_Food_T1"
+  },
+  "InteractionVars": {
+    "Effect": {
+      "Interactions": [
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Food_Health_Regen_Small"
+        }
+      ]
+    },
+    "ConsumeSFX": {
+      "Interactions": [
+        {
+          "Parent": "Consume_SFX",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Consume_Herb"
+          }
+        }
+      ]
+    },
+    "ConsumedSFX": {
+      "Interactions": [
+        {
+          "Parent": "Consumed_SFX",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Consume_Herb"
+          }
+        }
+      ]
+    }
+  },
+  "InteractionConfig": {
+    "Priorities": {
+      "Secondary": 1
+    }
+  },
+  "Consumable": true,
+  "Tags": {
+    "Type": [
+      "Food"
+    ]
+  },
+  "MaxStack": 25,
+  "Model": "Resources/Ingredients/Herbal_Cigarrette.blockymodel",
+  "Texture": "Resources/Ingredients/Herbal_Cigarrette.png",
+  "UsePlayerAnimations": true,
+  "Light": {
+    "Color": "#211",
+    "Radius": 0
+  },
+  "Trails": [
+    {
+      "TrailId": "Small_Flame"
+    }
+  ],
+  "Particles": [
+    {
+      "SystemId": "Smoke_Black",
+      "Color": "#757070",
+      "DetachedFromModel": false,
+      "Scale": 0.25,
+      "PositionOffset": {
+        "Y": 0.5
+      }
+    }
+  ],
+  "PlayerAnimationsId": "Joints",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_Ground_Herb",
+        "Quantity": 3
+      }
+    ],
+    "TimeSeconds": 1,
+    "RequiredMemoriesLevel": 2,
+    "BenchRequirement": [
+      {
+        "Id": "Rolling_Station",
+        "Categories": [
+          "Rolling_Station_Joints"
+        ]
+      }
+    ]
+  }
+}

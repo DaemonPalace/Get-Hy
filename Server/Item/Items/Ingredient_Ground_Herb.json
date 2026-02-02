@@ -1,0 +1,48 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ingredient_Ground_Herb.name",
+    "Description": "server.items.Ingredient_Ground_Herb.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Ingredient_Ground_Herb.png",
+  "Categories": [
+    "Get_Hy_Category.Herb",
+    "Items.Ingredients"
+  ],
+  "Model": "Items/Ingredients/Ingredient_Ground_Herb.blockymodel",
+  "Texture": "Items/Ingredients/Ingredient_Ground_Herb.png",
+  "PlayerAnimationsId": "Block",
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "FuelQuality": 1,
+  "IconProperties": {
+    "Scale": 1.21,
+    "Rotation": [
+      37,
+      337,
+      1
+    ],
+    "Translation": [
+      5,
+      -7
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Foliage",
+  "DropOnDeath": true,
+  "Scale": 3,
+  "UsePlayerAnimations": true,
+  "Quality": "Junk_Quality"
+}

@@ -1,0 +1,20 @@
+{
+  "Group": "DaemonPacks",
+  "Name": "Get Hy!",
+  "Version": "0.0.2",
+  "Description": "Make your own cultivation!",
+  "Authors": [
+    {
+      "Name": "DaemonPalace",
+      "Email": "",
+      "Url": "https://www.curseforge.com/members/DaemonPalace"
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

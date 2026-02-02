@@ -1,0 +1,30 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "Coke_Leave"
+        }
+      },
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "Ingredient_Life_Essence",
+          "QuantityMin": 5,
+          "QuantityMax": 8
+        }
+      },
+      {
+        "Type": "Single",
+        "Weight": 0.5,
+        "Item": {
+          "ItemId": "Coke_Leave",
+          "QuantityMin": 1,
+          "QuantityMax": 1
+        }
+      }
+    ]
+  }
+}

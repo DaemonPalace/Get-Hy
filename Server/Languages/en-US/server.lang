@@ -1,0 +1,68 @@
+#    // Plant Seeds //
+
+items.Plant_Seeds_Herb_Sativa.name=Sativa Seeds
+items.Plant_Seeds_Herb_Sativa.description=Use these seeds to grow a Sativa Herb plant. Sativa makes you energetic and quick.
+items.Plant_Seeds_Herb_Hybrid.name=Hybrid Seeds
+items.Plant_Seeds_Herb_Hybrid.description=Use these seeds to grow a Hybrid Herb plant. Hybrid is modestly regenerative and energetic.
+items.Plant_Seeds_Herb_Indica.name=Indica Seeds
+items.Plant_Seeds_Herb_Indica.description=Use these seeds to grow a Indica Herb plant. Indica helps with regeneration and health.
+
+items.Plant_Seeds_Coke.name=Coke Seeds
+items.Plant_Seeds_Coke.description=Use this to plant your own medicinal coke plant.
+
+#    // Plants //
+
+items.Plant_Crop_Herb_Sativa_Block.name=Sativa Herb Plant
+items.Plant_Crop_Herb_Hybrid_Block.name=Hybrid Herb Plant
+items.Plant_Crop_Herb_Indica_Block.name=Indica Herb Plant
+
+items.Plant_Crop_Coke_Block.name=Coke Plant
+
+#    // Bags //
+
+items.Empty_Bag.name=Empty Bag
+items.Empty_Bag.description=Use this to bag your product.
+
+items.Sativa_Bag.name=Sativa Bag
+items.Sativa_Bag.description=A bag packed with Sativa buds.
+items.Hybrid_Bag.name=Hybrid Bag
+items.Hybrid_Bag.description=A bag packed with Hybrid buds.
+items.Indica_Bag.name=Indica Bag
+items.Indica_Bag.description=A bag packed with Indica buds.
+
+items.Coke_Bag.name=Coke Bag
+items.Coke_Bag.description=A bag packed with processed coke.
+
+items.Herb_Bud.name=Herb Bud
+items.Herb_Bud_Item.description=Herb buds have many useful properties!
+items.Ingredient_Ground_Herb.name=Fresh Herb
+items.Ingredient_Ground_Herb.description=Fresh after grinding, the herb is now ready to roll up.
+
+items.Coke_Leave.name=Coke Leave
+items.Coke_Leave.description=Leaves from the coke plant can be made into medicine.
+items.Coke_Burned_Leave.name=Burned Coke Leave
+items.Coke_Burned_Leave.description=These burned and dried leaves can be ground up to extract it's best qualities.
+items.Ingredient_Pulverized_Coke.name=Pulverized Coke Leave
+items.Ingredient_Pulverized_Coke.description=Refine this in a Coke Processor to purify the substance.
+items.Ingredient_Processed_Coke.name=Processed Coke
+items.Ingredient_Processed_Coke.description=Your product is ready to use! Extracts can also be made in the Alchemy bench.
+
+items.Potion_Herbal_Extract.name=Herbal Extract
+items.Potion_Herbal_Extract.description=A small quantity of herbal extract with powerful healing properties.
+items.Potion_Coke_Extract.name=Coke Extract
+items.Potion_Coke_Extract.description=This coke extract provides a lot of energy and power.
+
+items.Herbal_Cigarrette.name=Herbal Cigarette
+items.Herbal_Cigarrette.description=Rolled up herb. Spark up!
+
+items.Bench_Rolling_Station.name=Rolling Station
+items.Bench_Rolling_Station.description=A table to roll up without wasting precious bud.
+items.Coke_Processor_Bench.name=Coke Processor
+items.Coke_Processor_Bench.description=Use this machine to turn pulverized coke to its processed version for further refinement.
+
+benchCategories.rollingstation.joints=Joints
+benchCategories.rollingstation.paraphernalia=Herb Paraphernalia
+
+ui.get_hy_category.herb=Herbs
+ui.get_hy_category.coke=Coke
+ui.get_hy_category.misc=Miscellaneous

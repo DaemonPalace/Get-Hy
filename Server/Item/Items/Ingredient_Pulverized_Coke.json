@@ -1,0 +1,45 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ingredient_Pulverized_Coke.name",
+    "Description": "server.items.Ingredient_Pulverized_Coke.description"
+  },
+  "Consumable": false,
+  "Icon": "Icons/ItemsGenerated/Ingredient_Pulverized_Coke.png",
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      42.8,
+      29.3,
+      23
+    ],
+    "Translation": [
+      -1,
+      -2
+    ]
+  },
+  "Texture": "Items/Ingredients/Ingredient_Pulverized_Coke.png",
+  "Model": "Items/Ingredients/Ingredient_Pulverized_Coke.blockymodel",
+  "Quality": "Junk_Quality",
+  "Categories": [
+    "Get_Hy_Category.Coke",
+    "Items.Ingredients"
+  ],
+  "ResourceTypes": [
+    {
+      "Id": "Foods"
+    }
+  ],
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Crop"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Foliage"
+}

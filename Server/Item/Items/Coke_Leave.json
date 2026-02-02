@@ -1,0 +1,67 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Coke_Leave.name",
+    "Description": "server.items.Coke_Leave.description"
+  },
+  "Consumable": true,
+  "Icon": "Icons/ItemsGenerated/Coke_Leave.png",
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      45,
+      97,
+      0
+    ],
+    "Translation": [
+      -9,
+      -7.8
+    ]
+  },
+  "Texture": "Resources/Ingredients/Cocke_Plant.png",
+  "Model": "Resources/Ingredients/Coke_Leave.blockymodel",
+  "Quality": "Junk_Quality",
+  "Categories": [
+    "Get_Hy_Category.Coke",
+    "Blocks.Plants"
+  ],
+  "ResourceTypes": [
+    {
+      "Id": "Vegetables"
+    }
+  ],
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Crop"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "Interactions": {
+    "Secondary": "Root_Secondary_Consume_Food_T1"
+  },
+  "InteractionVars": {
+    "Effect": {
+      "Interactions": [
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Food_Instant_Heal_T1"
+        },
+        "HealthRegen_TierCheck_T1"
+      ]
+    }
+  },
+  "Utility": {
+    "Compatible": true
+  },
+  "InteractionConfig": {
+    "Priorities": {
+      "Secondary": 1
+    }
+  },
+  "ItemSoundSetId": "ISS_Items_Foliage"
+}

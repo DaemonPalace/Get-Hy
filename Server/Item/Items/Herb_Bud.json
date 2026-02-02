@@ -1,0 +1,40 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Herb_Bud.name",
+    "Description": "server.items.Herb_Bud_Item.description"
+  },
+  "Parent": "Template_Crop_Item",
+  "Icon": "Icons/ItemsGenerated/Herb_Bud.png",
+  "PlayerAnimationsId": {
+    "Parent": "Item",
+    "Animations": {
+      "Consume": {
+        "FirstPerson": "Characters/Animations/Items/Main_Handed/Item/Attacks/Eat_Side/Eat_Side_FPS.blockyanim",
+        "ThirdPerson": "Characters/Animations/Items/Main_Handed/Item/Attacks/Eat_Side/Eat_Side.blockyanim",
+        "Speed": 1,
+        "Looping": true
+      }
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.675,
+    "Rotation": [
+      48.935,
+      76.5,
+      25.9
+    ],
+    "Translation": [
+      -4.2,
+      -2.4
+    ]
+  },
+  "Texture": "Resources/Ingredients/Herb_Bud.png",
+  "Model": "Resources/Ingredients/Herb_Bud.blockymodel",
+  "Scale": 0.79,
+  "Quality": "Junk_Quality",
+  "DropOnDeath": true,
+  "Categories": [
+    "Get_Hy_Category.Herb",
+    "Blocks.Plants"
+  ]
+}
