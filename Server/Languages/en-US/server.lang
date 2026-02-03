@@ -33,8 +33,10 @@ items.Indica_Bag.description=A bag packed with Indica buds.
 items.Coke_Bag.name=Coke Bag
 items.Coke_Bag.description=A bag packed with processed coke.
 
-items.Herb_Bud.name=Herb Bud
-items.Herb_Bud_Item.description=Herb buds have many useful properties!
+#    // Ingredients //
+
+items.Herb_Sativa_Bud.name=Herb Sativa Bud
+items.Herb_Sativa_Bud.description=Herb buds have many useful properties!
 items.Ingredient_Ground_Herb.name=Fresh Herb
 items.Ingredient_Ground_Herb.description=Fresh after grinding, the herb is now ready to roll up.
 
@@ -62,6 +64,8 @@ items.Coke_Processor_Bench.description=Use this machine to turn pulverized coke 
 
 benchCategories.rollingstation.joints=Joints
 benchCategories.rollingstation.paraphernalia=Herb Paraphernalia
+
+#    // Categories //
 
 ui.get_hy_category.herb=Herbs
 ui.get_hy_category.coke=Coke
