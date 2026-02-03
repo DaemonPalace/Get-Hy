@@ -27,8 +27,8 @@
     ]
   },
   "ItemSoundSetId": "ISS_Blocks_Wood",
-  "Model": "Items/Tools/Bag/Hybrid_Bag.blockymodel",
-  "Texture": "Items/Tools/Bag/Hybrid_Bag.png",
+  "Model": "Items/Tools/Bag/Herb/Hybrid/Hybrid_Bag.blockymodel",
+  "Texture": "Items/Tools/Bag/Herb/Hybrid/Hybrid_Bag.png",
   "MaxStack": 50,
   "Scale": 1.65,
   "Recipe": {

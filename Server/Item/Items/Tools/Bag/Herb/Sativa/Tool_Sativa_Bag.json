@@ -27,8 +27,8 @@
     ]
   },
   "ItemSoundSetId": "ISS_Blocks_Wood",
-  "Model": "Items/Tools/Bag/Sativa_Bag.blockymodel",
-  "Texture": "Items/Tools/Bag/Sativa_Bag.png",
+  "Model": "Items/Tools/Bag/Herb/Sativa/Sativa_Bag.blockymodel",
+  "Texture": "Items/Tools/Bag/Herb/Sativa/Sativa_Bag.png",
   "MaxStack": 50,
   "Scale": 1.65,
   "Recipe": {

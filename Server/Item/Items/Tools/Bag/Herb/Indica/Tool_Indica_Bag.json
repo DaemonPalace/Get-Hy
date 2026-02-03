@@ -27,8 +27,8 @@
     ]
   },
   "ItemSoundSetId": "ISS_Blocks_Wood",
-  "Model": "Items/Tools/Bag/Indica_Bag.blockymodel",
-  "Texture": "Items/Tools/Bag/Indica_Bag.png",
+  "Model": "Items/Tools/Bag/Herb/Indica/Indica_Bag.blockymodel",
+  "Texture": "Items/Tools/Bag/Herb/Indica/Indica_Bag.png",
   "MaxStack": 50,
   "Scale": 1.65,
   "Recipe": {
