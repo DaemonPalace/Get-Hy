@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Plant_Crop_Herb_Indica_God_Block.name"
+    "Name": "server.items.Plant_Crop_Herb_Indica_Block.name"
   },
   "Parent": "Template_Crop_Block",
   "BlockType": {
@@ -17,7 +17,7 @@
           "CustomModel": "Resources/Ingredients/Herbs/Indica/Plant/Herb_Indica_Plant_1.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Ingredients/Herbs/Indica/Plant/God/Herb_Indica_God_Plant.png",
+              "Texture": "Resources/Ingredients/Herbs/Indica/Plant/Exotic/Herb_Indica_Exotic_Plant.png",
               "Weight": 1
             }
           ],
@@ -34,10 +34,10 @@
           "ParticleColor": "#74a52d"
         },
         "Stage2": {
-          "CustomModel": "Resources/Ingredients/Herbs/Indica/Plant/Herb_Indica_Plant_2.blockymodel",
+          "CustomModel": "Resources/Ingredients/Herbs/Indica/Plant/Herb_Indica_Plant_3.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Ingredients/Herbs/Indica/Plant/God/Herb_Indica_God_Plant.png",
+              "Texture": "Resources/Ingredients/Herbs/Indica/Plant/Exotic/Herb_Indica_Exotic_Plant.png",
               "Weight": 1
             }
           ],
@@ -57,7 +57,7 @@
           "CustomModel": "Resources/Ingredients/Herbs/Indica/Plant/Herb_Indica_Plant_3.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Ingredients/Herbs/Indica/Plant/God/Herb_Indica_God_Plant.png",
+              "Texture": "Resources/Ingredients/Herbs/Indica/Plant/Exotic/Herb_Indica_Exotic_Plant.png",
               "Weight": 1
             }
           ],
@@ -169,7 +169,7 @@
     ]
   },
   "Icon": "Icons/ItemsGenerated/Plant_Crop_Herb_Block.png",
-  "Quality": "God_Quality",
+  "Quality": "Exotic_Quality",
   "Categories": [
     "Blocks.Plants"
   ]

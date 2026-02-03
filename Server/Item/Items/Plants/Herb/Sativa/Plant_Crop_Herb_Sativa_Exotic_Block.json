@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Plant_Crop_Herb_Sativa_Exotic_Block.name"
+    "Name": "server.items.Plant_Crop_Herb_Sativa_Block.name"
   },
   "Parent": "Template_Crop_Block",
   "BlockType": {

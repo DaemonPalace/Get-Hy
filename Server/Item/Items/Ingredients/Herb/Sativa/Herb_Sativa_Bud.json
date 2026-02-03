@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Herb_Bud.name",
-    "Description": "server.items.Herb_Bud_Item.description"
+    "Name": "server.items.Herb_Sativa_Bud.name",
+    "Description": "server.items.Herb_Sativa_Bud_Item.description"
   },
   "Parent": "Template_Crop_Item",
   "Icon": "Icons/ItemsGenerated/Herb_Bud.png",
