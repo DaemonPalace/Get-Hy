@@ -17,7 +17,7 @@
       -12
     ]
   },
-  "Texture": "Resources/Ingredients/Coke/Ingredients/Burnt_Coke_Leave.png",
+  "Texture": "Items/Ingredients/Coke/Burnt_Coke_Leave.png",
   "Model": "Resources/Ingredients/Coke/Ingredients/Burnt_Coke_Leave.blockymodel",
   "Quality": "Junk_Quality",
   "Categories": [

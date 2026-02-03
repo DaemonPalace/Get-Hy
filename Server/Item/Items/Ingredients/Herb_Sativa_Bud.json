@@ -28,8 +28,8 @@
       -2.4
     ]
   },
-  "Texture": "Resources/Ingredients/Herbs/Sativa/Herb_Sativa_Bud.png",
-  "Model": "Resources/Ingredients/Herbs/Sativa/Herb_Sativa_Bud.blockymodel",
+  "Texture": "Items/Ingredients/Herb/Sativa/Herb_Sativa_Bud.png",
+  "Model": "Items/Ingredients/Herb/Sativa/Herb_Sativa_Bud.blockymodel",
   "Scale": 0.79,
   "Quality": "Junk_Quality",
   "DropOnDeath": true,

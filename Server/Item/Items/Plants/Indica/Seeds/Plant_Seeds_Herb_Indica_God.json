@@ -15,7 +15,7 @@
       ]
     }
   },
-  "Texture": "Resources/Plants/SeedBag_Textures/Herb_Indica_God.png",
+  "Texture": "Resources/Plants/SeedBag_Textures/Herb/Indica/Herb_Indica_God.png",
   "Icon": "Icons/ItemsGenerated/Plant_Seeds_Herb_Indica_God.png",
   "IconProperties": {
     "Scale": 1.1,

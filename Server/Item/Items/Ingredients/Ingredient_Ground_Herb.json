@@ -8,8 +8,8 @@
     "Get_Hy_Category.Herb",
     "Items.Ingredients"
   ],
-  "Model": "Items/Ingredients/Ingredient_Ground_Herb.blockymodel",
-  "Texture": "Items/Ingredients/Ingredient_Ground_Herb.png",
+  "Model": "Items/Ingredients/Herb/Ingredient_Ground_Herb.blockymodel",
+  "Texture": "Items/Ingredients/Herb/Ingredient_Ground_Herb.png",
   "PlayerAnimationsId": "Block",
   "ResourceTypes": [
     {

@@ -22,7 +22,7 @@
     }
   },
   "Model": "Resources/Plants/SeedBag.blockymodel",
-  "Texture": "Resources/Plants/SeedBag_Textures/Cocaine_seed_bag.png",
+  "Texture": "Resources/Plants/SeedBag_Textures/Coke/Coke.png",
   "PlayerAnimationsId": "Item",
   "Icon": "Icons/ItemsGenerated/Plant_Seeds_Coca.png",
   "IconProperties": {

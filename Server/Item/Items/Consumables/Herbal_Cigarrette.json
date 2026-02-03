@@ -109,8 +109,8 @@
     ]
   },
   "MaxStack": 25,
-  "Model": "Resources/Ingredients/Herbal_Cigarrette.blockymodel",
-  "Texture": "Resources/Ingredients/Herbal_Cigarrette.png",
+  "Model": "Items/Consumables/Herbal_Cigarrette.blockymodel",
+  "Texture": "Items/Consumables/Herbal_Cigarrette.png",
   "UsePlayerAnimations": true,
   "Light": {
     "Color": "#211",

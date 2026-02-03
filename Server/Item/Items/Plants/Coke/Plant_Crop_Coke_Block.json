@@ -10,7 +10,7 @@
     "CustomModel": "Resources/Plants/Seeds.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/Plants/Seeds_Textures/Cocaine_Seed.png",
+        "Texture": "Resources/Plants/Seeds_Textures/Coke_Seed.png",
         "Weight": 1
       }
     ],
@@ -23,7 +23,7 @@
           "CustomModel": "Resources/Ingredients/Coke/Plant/Coke_Plant_1.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Ingredients/Coke/Plant/Plant_Crop_Coca_3.png",
+              "Texture": "Resources/Ingredients/Coke/Plant/Plant_Crop_Coke.png",
               "Weight": 1
             }
           ],
@@ -42,7 +42,7 @@
           "CustomModel": "Resources/Ingredients/Coke/Plant/Coke_Plant_2.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Ingredients/Coke/Plant/Plant_Crop_Coca_3.png",
+              "Texture": "Resources/Ingredients/Coke/Plant/Plant_Crop_Coke.png",
               "Weight": 1
             }
           ],
@@ -61,7 +61,7 @@
           "CustomModel": "Resources/Ingredients/Coke/Plant/Coke_Plant_3.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Ingredients/Coke/Plant/Plant_Crop_Coca_3.png",
+              "Texture": "Resources/Ingredients/Coke/Plant/Plant_Crop_Coke.png",
               "Weight": 1
             }
           ],

@@ -17,8 +17,8 @@
       -2
     ]
   },
-  "Texture": "Items/Ingredients/Ingredient_Processed_Coke.png",
-  "Model": "Items/Ingredients/Ingredient_Pulverized_Coke.blockymodel",
+  "Texture": "Items/Ingredients/Coke/Ingredient_Processed_Coke.png",
+  "Model": "Items/Ingredients/Coke/Ingredient_Pulverized_Coke.blockymodel",
   "Quality": "Junk_Quality",
   "Categories": [
     "Get_Hy_Category.Coke",

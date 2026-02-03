@@ -15,7 +15,7 @@
       ]
     }
   },
-  "Texture": "Resources/Plants/SeedBag_Textures/Herb_Sativa.png",
+  "Texture": "Resources/Plants/SeedBag_Textures/Herb/Sativa/Herb_Sativa.png",
   "Icon": "Icons/ItemsGenerated/Plant_Seeds_Herb_Sativa.png",
   "IconProperties": {
     "Scale": 1.1,

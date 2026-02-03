@@ -17,8 +17,8 @@
       -7.8
     ]
   },
-  "Texture": "Resources/Ingredients/Coke/Ingredients/Coke_Leave.png",
-  "Model": "Resources/Ingredients/Coke/Ingredients/Coke_Leave.blockymodel",
+  "Texture": "Items/Ingredients/Coke/Coke_Leave.png",
+  "Model": "Items/Ingredients/Coke/Coke_Leave.blockymodel",
   "Quality": "Junk_Quality",
   "Categories": [
     "Get_Hy_Category.Coke",
