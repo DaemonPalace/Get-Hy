@@ -6,7 +6,7 @@
   "BlockSlotTexture": "UI/ItemQualities/Slots/SlotLegendary.png",
   "SpecialSlotTexture": "UI/ItemQualities/Slots/SlotLegendary.png",
   "TextColor": "#bb8a2c",
-  "LocalizationKey": "server.general.qualities.Legendary",
+  "LocalizationKey": "server.general.qualities.God",
   "VisibleQualityLabel": true,
   "RenderSpecialSlot": true,
   "ItemEntityConfig": {

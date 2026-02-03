@@ -1,0 +1,62 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Plant_Seeds_Herb_Hybrid.name",
+    "Description": "server.items.Plant_Seeds_Herb_Hybrid.description"
+  },
+  "Parent": "Template_Seeds",
+  "Quality": "Exotic_Quality",
+  "InteractionVars": {
+    "SeedId": {
+      "Interactions": [
+        {
+          "Parent": "Seed_Place",
+          "BlockTypeToPlace": "Plant_Crop_Herb_Hybrid_Exotic_Block"
+        }
+      ]
+    }
+  },
+  "Texture": "Resources/Plants/SeedBag_Textures/Herb_Hybrid_Exotic.png",
+  "Icon": "Icons/ItemsGenerated/Plant_Seeds_Herb_Hybrid_Exotic.png",
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      0,
+      30,
+      15
+    ],
+    "Translation": [
+      2.5,
+      -11
+    ]
+  },
+  "Recipe": {
+    "TimeSeconds": 0,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 6
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Farmingbench",
+        "Categories": [
+          "Seeds"
+        ],
+        "RequiredTierLevel": 6
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Plant_Seeds_Herb",
+        "Quantity": 1
+      }
+    ]
+  },
+  "ItemLevel": 12,
+  "Categories": [
+    "Get_Hy_Category.Herb",
+    "Blocks.Plants"
+  ]
+}

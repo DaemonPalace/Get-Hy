@@ -57,7 +57,7 @@
           "CustomModel": "Resources/Ingredients/Herb_Sativa_Plant_3.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Ingredients/Herb_Sativa_Plant_3.png",
+              "Texture": "Resources/Ingredients/Herb_Sativa_Plant_Final.png",
               "Weight": 1
             }
           ],

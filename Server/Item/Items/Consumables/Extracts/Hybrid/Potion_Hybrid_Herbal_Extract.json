@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Potion_Herbal_Extract.name",
-    "Description": "server.items.Potion_Herbal_Extract.description"
+    "Name": "server.items.Potion_Hybrid_Herbal_Extract.name",
+    "Description": "server.items.Potion_Hybrid_Herbal_Extract.description"
   },
   "ItemLevel": 10,
   "PlayerAnimationsId": {

@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Plant_Crop_Herb_Indica_Block.name"
+    "Name": "server.items.Plant_Crop_Herb_Indica_Street_Block.name"
   },
   "Parent": "Template_Crop_Block",
   "BlockType": {
@@ -17,7 +17,7 @@
           "CustomModel": "Resources/Ingredients/Herb_Indica_Plant_1.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Ingredients/Herb_Indica_Plant.png",
+              "Texture": "Resources/Ingredients/Herb_Indica_Street_Plant.png",
               "Weight": 1
             }
           ],
@@ -37,7 +37,7 @@
           "CustomModel": "Resources/Ingredients/Herb_Indica_Plant_2.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Ingredients/Herb_Indica_Plant.png",
+              "Texture": "Resources/Ingredients/Herb_Indica_Street_Plant.png",
               "Weight": 1
             }
           ],
@@ -57,7 +57,7 @@
           "CustomModel": "Resources/Ingredients/Herb_Indica_Plant_3.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Ingredients/Herb_Indica_Plant_3.png",
+              "Texture": "Resources/Ingredients/Herb_Indica_Street_Plant.png",
               "Weight": 1
             }
           ],
