@@ -1,0 +1,172 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Plant_Crop_Herb_Sativa_Block.name"
+  },
+  "Parent": "Plant_Crop_Aubergine_Block",
+  "BlockType": {
+    "State": {
+      "Definitions": {
+        "Stage1": {
+          "CustomModel": "Resources/Ingredients/Herbs/Sativa/Plant/Herb_Sativa_Plant_1.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Ingredients/Herbs/Sativa/Plant/God/Herb_Sativa_God_Plant.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 1.5,
+          "HitboxType": "Plant_Small",
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Drops_Plant_Crop_Herb_Sativa_S1"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#cdf600"
+        },
+        "Stage2": {
+          "CustomModel": "Resources/Ingredients/Herbs/Sativa/Plant/Herb_Sativa_Plant_2.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Ingredients/Herbs/Sativa/Plant/God/Herb_Sativa_God_Plant.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 1,
+          "HitboxType": "Plant_Medium",
+          "Gathering": {
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Drops_Plant_Crop_Herb_Sativa_S1"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#cdf600"
+        },
+        "StageFinal": {
+          "CustomModel": "Resources/Ingredients/Herbs/Sativa/Plant/Herb_Sativa_Plant_3.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/Ingredients/Herbs/Sativa/Plant/God/Herb_Sativa_God_Plant_Final.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModelScale": 1.15,
+          "HitboxType": "Plant_Medium",
+          "InteractionHint": "server.interactionHints.harvest",
+          "Interactions": {
+            "Use": {
+              "Interactions": [
+                {
+                  "Type": "HarvestCrop"
+                }
+              ]
+            }
+          },
+          "Gathering": {
+            "Harvest": {
+              "DropList": "Drops_Plant_Crop_Herb_Sativa_SF"
+            },
+            "Soft": {
+              "IsWeaponBreakable": false,
+              "DropList": "Drops_Plant_Crop_Herb_Sativa_SF"
+            }
+          },
+          "BlockParticleSetId": "Grass",
+          "BlockSoundSetId": "Plant",
+          "ParticleColor": "#cdf600"
+        }
+      }
+    },
+    "Particles": [
+      {
+        "SystemId": "Plant_God",
+        "DetachedFromModel": false
+      }
+    ],
+    "Farming": {
+      "Stages": {
+        "Default": [
+          {
+            "Duration": {
+              "Min": 10500,
+              "Max": 10500
+            },
+            "Type": "BlockState",
+            "State": "default"
+          },
+          {
+            "Duration": {
+              "Min": 37950,
+              "Max": 37950
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage1"
+          },
+          {
+            "Duration": {
+              "Min": 37950,
+              "Max": 37950
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage2"
+          },
+          {
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow_Stage_Complete",
+            "State": "StageFinal"
+          }
+        ],
+        "Harvested": [
+          {
+            "Duration": {
+              "Min": 37950,
+              "Max": 37950
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage1"
+          },
+          {
+            "Duration": {
+              "Min": 37950,
+              "Max": 37950
+            },
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow",
+            "State": "Stage2"
+          },
+          {
+            "Type": "BlockState",
+            "SoundEventId": "SFX_Crops_Grow_Stage_Complete",
+            "State": "StageFinal"
+          }
+        ]
+      },
+      "StartingStageSet": "Default",
+      "ActiveGrowthModifiers": [
+        "Fertilizer",
+        "Water",
+        "LightLevel"
+      ],
+      "StageSetAfterHarvest": "Harvested"
+    },
+    "CustomModel": "Resources/Plants/Seeds.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Plants/Seeds_Textures/Sativa_Seed.png"
+      }
+    ],
+    "Gathering": {
+      "Soft": {
+        "DropList": "Drops_Plant_Crop_Herb_Sativa_S1"
+      }
+    }
+  },
+  "Quality": "God_Quality"
+}

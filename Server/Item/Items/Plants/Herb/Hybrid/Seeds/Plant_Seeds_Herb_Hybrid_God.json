@@ -10,7 +10,7 @@
       "Interactions": [
         {
           "Parent": "Seed_Place",
-          "BlockTypeToPlace": "Plant_Crop_Herb_Hybrid_God_Block"
+          "BlockTypeToPlace": "Plant_Crop_Herb_Hybrid_Block_God"
         }
       ]
     }

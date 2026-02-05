@@ -2,22 +2,15 @@
   "TranslationProperties": {
     "Name": "server.items.Plant_Crop_Herb_Indica_Block.name"
   },
-  "Parent": "Template_Crop_Block",
+  "Parent": "Plant_Crop_Aubergine_Block",
   "BlockType": {
-    "CustomModel": "Resources/Plants/Seeds.blockymodel",
-    "CustomModelTexture": [
-      {
-        "Texture": "Resources/Plants/Seeds_Textures/Indica_Seed.png",
-        "Weight": 1
-      }
-    ],
     "State": {
       "Definitions": {
         "Stage1": {
           "CustomModel": "Resources/Ingredients/Herbs/Indica/Plant/Herb_Indica_Plant_1.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Ingredients/Herbs/Indica/Plant/Dispensary/Herb_Indica_Dispensary_Plant.png",
+              "Texture": "Resources/Ingredients/Herbs/Indica/Plant/Exotic/Herb_Indica_Exotic_Plant.png",
               "Weight": 1
             }
           ],
@@ -26,59 +19,75 @@
           "Gathering": {
             "Soft": {
               "IsWeaponBreakable": false,
-              "DropList": "Drops_Plant_Crop_Herb_Stage1"
+              "DropList": "Drops_Plant_Crop_Herb_Sativa_S1"
             }
           },
           "BlockParticleSetId": "Grass",
           "BlockSoundSetId": "Plant",
-          "ParticleColor": "#74a52d"
+          "ParticleColor": "#c32836"
         },
         "Stage2": {
           "CustomModel": "Resources/Ingredients/Herbs/Indica/Plant/Herb_Indica_Plant_2.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Ingredients/Herbs/Indica/Plant/Dispensary/Herb_Indica_Dispensary_Plant.png",
+              "Texture": "Resources/Ingredients/Herbs/Indica/Plant/Exotic/Herb_Indica_Exotic_Plant.png",
               "Weight": 1
             }
           ],
           "CustomModelScale": 1.4,
-          "HitboxType": "Plant_Large",
+          "HitboxType": "Plant_Medium",
           "Gathering": {
             "Soft": {
               "IsWeaponBreakable": false,
-              "DropList": "Drops_Plant_Crop_Herb_Stage1"
+              "DropList": "Drops_Plant_Crop_Herb_Sativa_S1"
             }
           },
           "BlockParticleSetId": "Grass",
           "BlockSoundSetId": "Plant",
-          "ParticleColor": "#74a52d"
+          "ParticleColor": "#c32836"
         },
         "StageFinal": {
           "CustomModel": "Resources/Ingredients/Herbs/Indica/Plant/Herb_Indica_Plant_3.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/Ingredients/Herbs/Indica/Plant/Dispensary/Herb_Indica_Dispensary_Plant.png",
+              "Texture": "Resources/Ingredients/Herbs/Indica/Plant/Exotic/Herb_Indica_Exotic_Plant.png",
               "Weight": 1
             }
           ],
           "CustomModelScale": 1.6,
-          "HitboxType": "Plant_Large",
+          "HitboxType": "Plant_Medium",
           "InteractionHint": "server.interactionHints.harvest",
+          "Interactions": {
+            "Use": {
+              "Interactions": [
+                {
+                  "Type": "HarvestCrop"
+                }
+              ]
+            }
+          },
           "Gathering": {
             "Harvest": {
-              "DropList": "Drops_Plant_Crop_Herb_StageFinal_Harvest"
+              "DropList": "Drops_Plant_Crop_Herb_Sativa_SF"
             },
             "Soft": {
               "IsWeaponBreakable": false,
-              "DropList": "Drops_Plant_Crop_Herb_StageFinal_Harvest"
+              "DropList": "Drops_Plant_Crop_Herb_Sativa_SF"
             }
           },
           "BlockParticleSetId": "Grass",
           "BlockSoundSetId": "Plant",
-          "ParticleColor": "#1e951c"
+          "ParticleColor": "#c32836"
         }
       }
     },
+    "Particles": [
+      {
+        "SystemId": "Plant_Exotic",
+        "DetachedFromModel": false,
+        "Color": "#2d65c8"
+      }
+    ],
     "Farming": {
       "Stages": {
         "Default": [
@@ -148,29 +157,18 @@
       ],
       "StageSetAfterHarvest": "Harvested"
     },
+    "CustomModel": "Resources/Plants/Seeds.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Plants/Seeds_Textures/Indica_Seed.png"
+      }
+    ],
     "Gathering": {
       "Soft": {
-        "IsWeaponBreakable": false,
-        "DropList": "Plant_Crop_Herb_Stage1"
+        "DropList": "Drops_Plant_Crop_Herb_Sativa_S1"
       }
     },
-    "ParticleColor": "#d4b13b"
+    "ParticleColor": "#c32836"
   },
-  "IconProperties": {
-    "Scale": 1.085,
-    "Rotation": [
-      22.5,
-      45,
-      22.5
-    ],
-    "Translation": [
-      0,
-      -4.2
-    ]
-  },
-  "Icon": "Icons/ItemsGenerated/Plant_Crop_Herb_Block.png",
-  "Quality": "Dispensary_Quality",
-  "Categories": [
-    "Blocks.Plants"
-  ]
+  "Quality": "Exotic_Quality"
 }

@@ -10,7 +10,7 @@
       "Interactions": [
         {
           "Parent": "Seed_Place",
-          "BlockTypeToPlace": "Plant_Crop_Herb_Sativa_Exotic_Block"
+          "BlockTypeToPlace": "Plant_Crop_Herb_Sativa_Block_Exotic"
         }
       ]
     }
