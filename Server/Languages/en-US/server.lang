@@ -6,6 +6,12 @@ items.Plant_Seeds_Herb_Hybrid.name=Hybrid Seeds
 items.Plant_Seeds_Herb_Hybrid.description=Use these seeds to grow a Hybrid Herb plant. Hybrid is modestly regenerative and energetic.
 items.Plant_Seeds_Herb_Indica.name=Indica Seeds
 items.Plant_Seeds_Herb_Indica.description=Use these seeds to grow a Indica Herb plant. Indica helps with regeneration and health.
+items.Plant_Seeds_Herb_Sativa_Eternal.name=Sativa Seeds (Eternal)
+items.Plant_Seeds_Herb_Sativa_Eternal.description=Use these seeds to grow a Sativa Herb plant. Sativa makes you energetic and quick.
+items.Plant_Seeds_Herb_Hybrid_Eternal.name=Hybrid Seeds (Eternal)
+items.Plant_Seeds_Herb_Hybrid_Eternal.description=Use these seeds to grow a Hybrid Herb plant. Hybrid is modestly regenerative and energetic.
+items.Plant_Seeds_Herb_Indica_Eternal.name=Indica Seeds (Eternal)
+items.Plant_Seeds_Herb_Indica_Eternal.description=Use these seeds to grow a Indica Herb plant. Indica helps with regeneration and health.
 
 items.Plant_Seeds_Coke.name=Coke Seeds
 items.Plant_Seeds_Coke.description=Use this to plant your own medicinal coke plant.
@@ -37,8 +43,22 @@ items.Coke_Bag.description=A bag packed with processed coke.
 
 items.Herb_Sativa_Bud.name=Herb Sativa Bud
 items.Herb_Sativa_Bud.description=Herb buds have many useful properties!
+items.Herb_Indica_Bud.name=Herb Indica Bud
+items.Herb_Indica_Bud.description=Herb buds have many useful properties!
+items.Herb_Hybrid_Bud.name=Herb Hybrid Bud
+items.Herb_Hybrid_Bud.description=Herb buds have many useful properties!
+
+
 items.Ingredient_Ground_Herb.name=Fresh Herb
 items.Ingredient_Ground_Herb.description=Fresh after grinding, the herb is now ready to roll up.
+items.Ingredient_Ground_Herb_Street.name=Fresh Herb (Street)
+items.Ingredient_Ground_Herb_Street.description=Fresh after grinding, the herb is now ready to roll up.
+items.Ingredient_Ground_Herb_Dispensary.name=Fresh Herb (Dispensary)
+items.Ingredient_Ground_Herb_Dispensary.description=Fresh after grinding, the herb is now ready to roll up.
+items.Ingredient_Ground_Herb_Exotic.name=Fresh Herb (Exotic)
+items.Ingredient_Ground_Herb_Exotic.description=Fresh after grinding, the herb is now ready to roll up.
+items.Ingredient_Ground_Herb_God.name=Fresh Herb (God)
+items.Ingredient_Ground_Herb_God.description=Fresh after grinding, the herb is now ready to roll up.
 
 items.Coke_Leave.name=Coke Leave
 items.Coke_Leave.description=Leaves from the coke plant can be made into medicine.
@@ -49,24 +69,50 @@ items.Ingredient_Pulverized_Coke.description=Refine this in a Coke Processor to 
 items.Ingredient_Processed_Coke.name=Processed Coke
 items.Ingredient_Processed_Coke.description=Your product is ready to use! Extracts can also be made in the Alchemy bench.
 
-items.Potion_Herbal_Extract.name=Herbal Extract
+#    // Consumables //
+
+items.Potion_Herbal_Hybrid_Extract.name=Herbal Extract
 items.Potion_Herbal_Extract.description=A small quantity of herbal extract with powerful healing properties.
 items.Potion_Coke_Extract.name=Coke Extract
 items.Potion_Coke_Extract.description=This coke extract provides a lot of energy and power.
 
-items.Herbal_Cigarrette.name=Herbal Cigarette
-items.Herbal_Cigarrette.description=Rolled up herb. Spark up!
+items.Herbal_Base_Joint.name=Herbal Spliff
+items.Herbal_Base_Joint.description=Rolled up herb. Spark up!
+items.Herbal_Street_Joint.name=Herbal Joint
+items.Herbal_Street_Joint.description=Rolled up herb. Spark up!
+items.Herbal_Base_Dispensary_Joint.name=Herbal Cone
+items.Herbal_Base_Dispensary_Joint.description=Rolled up herb. Spark up!
+items.Herbal_Exotic_Joint.name=Herbal Twax Joint
+items.Herbal_Exotic_Joint.description=Rolled up herb. Spark up!
+items.Herbal_God_Joint.name=Herbal Blunt
+items.Herbal_God_Joint.description=Rolled up herb. Spark up!
+
+# // Benches //
 
 items.Bench_Rolling_Station.name=Rolling Station
 items.Bench_Rolling_Station.description=A table to roll up without wasting precious bud.
 items.Coke_Processor_Bench.name=Coke Processor
 items.Coke_Processor_Bench.description=Use this machine to turn pulverized coke to its processed version for further refinement.
 
+# // Bench Categories //
+
 benchCategories.rollingstation.joints=Joints
 benchCategories.rollingstation.paraphernalia=Herb Paraphernalia
+benchCategories.farmingbench.herbs=Herbs
 
 #    // Categories //
 
-ui.get_hy_category.herb=Herbs
+ui.get_hy_category.sativa=Sativa
+ui.get_hy_category.hybrid=Hybrid
+ui.get_hy_category.indica=Indica
+ui.get_hy_category.joints=Joints
+ui.get_hy_category.extracts=Herb Extracts
 ui.get_hy_category.coke=Coke
 ui.get_hy_category.misc=Miscellaneous
+
+#    // Rarities //
+
+general.qualities.Street=Street-Tier
+general.qualities.Dispensary=Dispensary-Tier
+general.qualities.Exotic=Exotic-Tier
+general.qualities.God=God-Tier
