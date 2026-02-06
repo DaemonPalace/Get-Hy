@@ -1,0 +1,118 @@
+#    // Plant Seeds //
+
+items.Plant_Seeds_Herb_Sativa.name=Sativa Samen
+items.Plant_Seeds_Herb_Sativa.description=Verwende diese Samen, um eine Sativa Pflanze anzubauen. Sativa macht dich energiegeladen und schnell.
+items.Plant_Seeds_Herb_Hybrid.name=Hybrid Saatgut
+items.Plant_Seeds_Herb_Hybrid.description=Verwenden Sie diese Samen, um eine Hybrid Pflanze zu züchten. Hybrid ist bescheiden regenerativ und energetisch.
+items.Plant_Seeds_Herb_Indica.name=Indica Samen
+items.Plant_Seeds_Herb_Indica.description=Verwenden Sie diese Samen, um eine Indica Pflanze zu züchten. Indica hilft bei der Regeneration und Gesundheit.
+items.Plant_Seeds_Herb_Sativa_Eternal.name=Sativa Samen (Eternal)
+items.Plant_Seeds_Herb_Sativa_Eternal.description=Verwenden Sie diese Samen, um eine Sativa Pflanze zu züchten. Sativa macht Sie energiegeladen und schnell.
+items.Plant_Seeds_Herb_Hybrid_Eternal.name=Hybrid Saatgut (Eternal)
+items.Plant_Seeds_Herb_Hybrid_Eternal.description=Verwenden Sie diese Samen, um eine Hybrid Pflanze zu züchten. Hybrid ist bescheiden regenerativ und energetisch.
+items.Plant_Seeds_Herb_Indica_Eternal.name=Indica Samen (Eternal)
+items.Plant_Seeds_Herb_Indica_Eternal.description=Verwenden Sie diese Samen, um eine Indica Pflanze zu züchten. Indica hilft bei der Regeneration und Gesundheit.
+
+items.Plant_Seeds_Coke.name=Koks Samen
+items.Plant_Seeds_Coke.description=Verwenden Sie dies, um Ihre eigene medizinische Kokspflanze zu pflanzen.
+
+#    // Plants //
+
+items.Plant_Crop_Herb_Sativa_Block.name=Sativa Pflanze
+items.Plant_Crop_Herb_Hybrid_Block.name=Hybride Pflanze
+items.Plant_Crop_Herb_Indica_Block.name=Indica Pflanze
+
+items.Plant_Crop_Coke_Block.name=Kokerei
+
+#    // Bags //
+
+items.Empty_Bag.name=Leerer Beutel
+items.Empty_Bag.description=Verwenden Sie dies, um Ihr Produkt einzutüten.
+
+items.Sativa_Bag.name=Sativa Beutel
+items.Sativa_Bag.description=Ein Beutel voll mit Sativa Knospen.
+items.Hybrid_Bag.name=Hybrid Beutel
+items.Hybrid_Bag.description=Ein Beutel voll mit Hybrid Knospen.
+items.Indica_Bag.name=Indica Beutel
+items.Indica_Bag.description=Ein Beutel voll mit Indica Knospen.
+
+items.Coke_Bag.name=Koks Tasche
+items.Coke_Bag.description=Eine Tüte mit verarbeitetem Koks.
+
+#    // Ingredients //
+
+items.Herb_Sativa_Bud.name=Sativa Knospe
+items.Herb_Sativa_Bud.description=Knospen haben viele nützliche Eigenschaften!
+items.Herb_Indica_Bud.name=Indica Knospe
+items.Herb_Indica_Bud.description=Knospen haben viele nützliche Eigenschaften!
+items.Herb_Hybrid_Bud.name=Hybride Knospe
+items.Herb_Hybrid_Bud.description=Knospen haben viele nützliche Eigenschaften!
+
+
+items.Ingredient_Ground_Herb.name=Frisches Kraut
+items.Ingredient_Ground_Herb.description=Frisch gemahlen ist das Kraut nun bereit zum Aufrollen.
+items.Ingredient_Ground_Herb_Street.name=Frisches Kraut (Straße)
+items.Ingredient_Ground_Herb_Street.description=Frisch gemahlen ist das Kraut nun bereit zum Aufrollen.
+items.Ingredient_Ground_Herb_Dispensary.name=Frisches Kraut (Dispensary)
+items.Ingredient_Ground_Herb_Dispensary.description=Frisch gemahlen ist das Kraut nun bereit zum Aufrollen.
+items.Ingredient_Ground_Herb_Exotic.name=Frisches Kraut (exotisch)
+items.Ingredient_Ground_Herb_Exotic.description=Frisch gemahlen ist das Kraut nun bereit zum Aufrollen.
+items.Ingredient_Ground_Herb_God.name=Frisches Kraut (Gott)
+items.Ingredient_Ground_Herb_God.description=Frisch gemahlen ist das Kraut nun bereit zum Aufrollen.
+
+items.Coke_Leave.name=Koksblatt
+items.Coke_Leave.description=Aus den Blättern der Kokspflanze kann man Medizin herstellen.
+items.Burnt_Coke_Leave.name=Verbrannte Koksblätter
+items.Burnt_Coke_Leave.description=Diese verbrannten und getrockneten Blätter können zermahlen werden, um ihre besten Eigenschaften zu extrahieren.
+items.Ingredient_Pulverized_Coke.name=Pulverisierte Koksblätter
+items.Ingredient_Pulverized_Coke.description=Veredeln Sie diese in einem Koksprozessor, um die Substanz zu reinigen.
+items.Ingredient_Processed_Coke.name=Verarbeiteter Koks
+items.Ingredient_Processed_Coke.description=Ihr Produkt ist fertig zum Gebrauch! Extrakte können auch in der Alchemie-Bank hergestellt werden.
+
+#    // Consumables //
+
+items.Potion_Herbal_Hybrid_Extract.name=Kräuterextrakt
+items.Potion_Herbal_Extract.description=Eine kleine Menge eines Kräuterextrakts mit starken heilenden Eigenschaften.
+items.Potion_Coke_Extract.name=Koks Extrakt
+items.Potion_Coke_Extract.description=Dieser Koks Extrakt liefert viel Energie und Kraft.
+
+items.Herbal_Base_Joint.name=Joint
+items.Herbal_Base_Joint.description=Aufgerolltes Kraut. Funken schlagen!
+items.Herbal_Street_Joint.name=Straßen Joint
+items.Herbal_Street_Joint.description=Aufgerolltes Kraut. Funken schlagen!
+items.Herbal_Dispensary_Joint.name=Apotheken Joint
+items.Herbal_Dispensary_Joint.description=Aufgerolltes Kraut. Funken schlagen!
+items.Herbal_Exotic_Joint.name=Exotischer Joint
+items.Herbal_Exotic_Joint.description=Aufgerolltes Kraut. Funken schlagen!
+items.Herbal_God_Joint.name=Gott Joint
+items.Herbal_God_Joint.description=Aufgerolltes Kraut. Funken schlagen!
+
+# // Benches //
+
+items.Bench_Rolling_Station.name=Wickeltisch
+items.Bench_Rolling_Station.description=Ein Tisch zum Aufrollen, ohne wertvolle Knospen zu verschwenden.
+items.Coke_Processor_Bench.name=Koks Prozessor
+items.Coke_Processor_Bench.description=Verwenden Sie diese Maschine, um pulverisierten Koks zur weiteren Veredelung in seine aufbereitete Form umzuwandeln.
+
+# // Bench Categories //
+
+benchCategories.rollingstation.joints=Joints
+benchCategories.rollingstation.paraphernalia=Kräuterutensilien
+benchCategories.farmingbench.herbs=Kräuter
+
+#    // Categories //
+
+ui.get_hy_category.sativa=Sativa
+ui.get_hy_category.hybrid=Hybride
+ui.get_hy_category.indica=Indica
+ui.get_hy_category.joints=Joints
+ui.get_hy_category.extracts=Extrakte
+ui.get_hy_category.coke=Koks
+ui.get_hy_category.misc=Sonstiges
+
+#    // Rarities //
+
+general.qualities.Street=Straßen-Qualität
+general.qualities.Dispensary=Apotheken-Qualität
+general.qualities.Exotic=Exotische-Qualität
+general.qualities.God=Gott-Qualität
