@@ -1,10 +1,10 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Herb_Sativa_Bud.name",
-    "Description": "server.items.Herb_Sativa_Bud.description"
+    "Name": "server.items.Herb_Hybrid_Bud.name",
+    "Description": "server.items.Herb_Hybrid_Bud_Item.description"
   },
   "Parent": "Template_Crop_Item",
-  "Icon": "Icons/ItemsGenerated/Herb_Sativa_Bud.png",
+  "Icon": "Icons/ItemsGenerated/Herb_Hybrid_Bud.png",
   "PlayerAnimationsId": {
     "Parent": "Item",
     "Animations": {
@@ -28,9 +28,9 @@
       -2.4
     ]
   },
-  "Texture": "Items/Ingredients/Herb/Sativa/Herb_Sativa_Bud.png",
+  "Texture": "Items/Ingredients/Herb/Hybrid/Herb_Hybrid_Bud.png",
   "Model": "Items/Ingredients/Herb/Herb_Bud.blockymodel",
-  "Scale": 0.5,
+  "Scale": 0.79,
   "Quality": "Junk_Quality",
   "DropOnDeath": true,
   "Categories": [

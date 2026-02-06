@@ -5,23 +5,23 @@
       {
         "Type": "Single",
         "Item": {
-          "ItemId": "Herb_Sativa_Bud",
+          "ItemId": "Herb_Indica_Bud_God",
           "QuantityMax": 3
         }
       },
       {
         "Type": "Single",
         "Item": {
-          "ItemId": "Ingredient_Life_Essence",
-          "QuantityMin": 3,
-          "QuantityMax": 7
+          "ItemId": "Ingredient_Lightning_Essence",
+          "QuantityMin": 1,
+          "QuantityMax": 2
         }
       },
       {
         "Type": "Single",
-        "Weight": 0.5,
+        "Weight": 0.1,
         "Item": {
-          "ItemId": "Plant_Seeds_Herb_Sativa_Eternal",
+          "ItemId": "Plant_Seeds_Herb_Indica_God",
           "QuantityMax": 1
         }
       }

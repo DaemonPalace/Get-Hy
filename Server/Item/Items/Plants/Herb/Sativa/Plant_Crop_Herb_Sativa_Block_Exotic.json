@@ -19,7 +19,7 @@
           "Gathering": {
             "Soft": {
               "IsWeaponBreakable": false,
-              "DropList": "Drops_Plant_Crop_Herb_Sativa_S1"
+              "DropList": "Drops_Plant_Crop_Herb_Sativa_Exotic_S1"
             }
           },
           "BlockParticleSetId": "Grass",
@@ -39,7 +39,7 @@
           "Gathering": {
             "Soft": {
               "IsWeaponBreakable": false,
-              "DropList": "Drops_Plant_Crop_Herb_Sativa_S1"
+              "DropList": "Drops_Plant_Crop_Herb_Sativa_Exotic_S1"
             }
           },
           "BlockParticleSetId": "Grass",
@@ -68,11 +68,11 @@
           },
           "Gathering": {
             "Harvest": {
-              "DropList": "Drops_Plant_Crop_Herb_Sativa_SF"
+              "DropList": "Drops_Plant_Crop_Herb_Sativa_Exotic_SF"
             },
             "Soft": {
               "IsWeaponBreakable": false,
-              "DropList": "Drops_Plant_Crop_Herb_Sativa_SF"
+              "DropList": "Drops_Plant_Crop_Herb_Sativa_Exotic_SF"
             }
           },
           "BlockParticleSetId": "Grass",

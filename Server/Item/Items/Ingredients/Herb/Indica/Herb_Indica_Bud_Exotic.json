@@ -1,10 +1,10 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Herb_Sativa_Bud.name",
-    "Description": "server.items.Herb_Sativa_Bud.description"
+    "Name": "server.items.Herb_Indica_Bud.name",
+    "Description": "server.items.Herb_Indica_Bud.description"
   },
   "Parent": "Template_Crop_Item",
-  "Icon": "Icons/ItemsGenerated/Herb_Sativa_Bud.png",
+  "Icon": "Icons/ItemsGenerated/Herb_Sativa_Bud_Exotic.png",
   "PlayerAnimationsId": {
     "Parent": "Item",
     "Animations": {
@@ -28,10 +28,10 @@
       -2.4
     ]
   },
-  "Texture": "Items/Ingredients/Herb/Sativa/Herb_Sativa_Bud.png",
+  "Texture": "Items/Ingredients/Herb/Indica/Herb_Indica_Bud_Exotic.png",
   "Model": "Items/Ingredients/Herb/Herb_Bud.blockymodel",
-  "Scale": 0.5,
-  "Quality": "Junk_Quality",
+  "Scale": 0.85,
+  "Quality": "Exotic_Quality",
   "DropOnDeath": true,
   "Categories": [
     "Get_Hy_Category.Herb",
