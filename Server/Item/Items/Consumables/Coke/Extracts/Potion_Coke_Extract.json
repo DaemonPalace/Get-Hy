@@ -15,22 +15,12 @@
       }
     }
   },
-  "Categories": [
-    "Get_Hy_Category.Coke",
-    "Items.Potions"
-  ],
+  "Categories": ["Get_Hy_Category.Coke", "Items.Potions"],
   "Icon": "Icons/ItemsGenerated/Potion_Coke_Extract.png",
   "IconProperties": {
     "Scale": 0.58823,
-    "Rotation": [
-      22.5,
-      45,
-      22.5
-    ],
-    "Translation": [
-      0,
-      -13.5
-    ]
+    "Rotation": [22.5, 45, 22.5],
+    "Translation": [0, -13.5]
   },
   "Recipe": {
     "KnowledgeRequired": false,
@@ -40,7 +30,7 @@
         "Quantity": 5
       },
       {
-        "ItemId": "Coke_Bag",
+        "ItemId": "Block_Coke_Bag",
         "Quantity": 2
       }
     ],
@@ -48,9 +38,7 @@
       {
         "Id": "Alchemybench",
         "Type": "Crafting",
-        "Categories": [
-          "Alchemy_Potions"
-        ]
+        "Categories": ["Alchemy_Potions"]
       }
     ],
     "OutputQuantity": 5,
@@ -71,9 +59,7 @@
       "Interactions": [
         {
           "Type": "EffectCondition",
-          "EntityEffectIds": [
-            "Potion_Health_Greater_Regen"
-          ],
+          "EntityEffectIds": ["Potion_Health_Greater_Regen"],
           "Match": "None",
           "Next": {
             "Type": "Serial",
@@ -155,9 +141,7 @@
   },
   "Consumable": true,
   "Tags": {
-    "Type": [
-      "Potion"
-    ]
+    "Type": ["Potion"]
   },
   "Scale": 2,
   "MaxStack": 10,
