@@ -3,7 +3,7 @@
     "Name": "server.items.Ingredient_Ground_Herb_Dispensary.name",
     "Description": "server.items.Ingredient_Ground_Herb_Dispensary.description"
   },
-  "Icon": "Icons/ItemsGenerated/Ingredient_Ground_Herb.png",
+  "Icon": "Icons/ItemsGenerated/Ingredient_Ground_Herb_Dispensary.png",
   "Categories": [
     "Get_Hy_Category.Misc",
     "Items.Ingredients"

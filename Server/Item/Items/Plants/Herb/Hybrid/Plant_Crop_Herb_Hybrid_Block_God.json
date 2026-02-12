@@ -168,5 +168,18 @@
       }
     }
   },
-  "Quality": "God_Quality"
+  "Quality": "God_Quality",
+  "Icon": "Icons/ItemsGenerated/Plant_Crop_Herb_Hybrid_Block_God.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
 }

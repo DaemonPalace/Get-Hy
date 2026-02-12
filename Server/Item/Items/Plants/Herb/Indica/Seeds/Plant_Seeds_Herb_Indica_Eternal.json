@@ -24,7 +24,7 @@
   "Model": "Resources/Plants/SeedBag.blockymodel",
   "Texture": "Resources/Plants/SeedBag_Textures/Herb/Indica/Herb_Indica_Eternal.png",
   "PlayerAnimationsId": "Item",
-  "Icon": "Icons/ItemsGenerated/Plant_Crop_Herb_Indica_Eternal.png",
+  "Icon": "Icons/ItemsGenerated/Plant_Seeds_Herb_Indica_Eternal.png",
   "IconProperties": {
     "Scale": 1.1,
     "Rotation": [

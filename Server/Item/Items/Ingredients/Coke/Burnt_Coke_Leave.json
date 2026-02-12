@@ -4,7 +4,7 @@
     "Description": "server.items.Burnt_Coke_Leave.description"
   },
   "Consumable": false,
-  "Icon": "Icons/ItemsGenerated/Coke_Burned_Leave.png",
+  "Icon": "Icons/ItemsGenerated/Burnt_Coke_Leave.png",
   "IconProperties": {
     "Scale": 1,
     "Rotation": [

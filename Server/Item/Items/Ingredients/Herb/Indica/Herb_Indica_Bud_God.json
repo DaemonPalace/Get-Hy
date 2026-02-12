@@ -4,7 +4,7 @@
     "Description": "server.items.Herb_Indica_Bud.description"
   },
   "Parent": "Template_Crop_Item",
-  "Icon": "Icons/ItemsGenerated/Herb_Sativa_Bud_God.png",
+  "Icon": "Icons/ItemsGenerated/Herb_Indica_Bud_God.png",
   "PlayerAnimationsId": {
     "Parent": "Item",
     "Animations": {

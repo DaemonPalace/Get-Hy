@@ -170,5 +170,18 @@
     },
     "ParticleColor": "#2d65c8"
   },
-  "Quality": "Junk_Quality"
+  "Quality": "Junk_Quality",
+  "Icon": "Icons/ItemsGenerated/Plant_Crop_Herb_Indica_Block_Street.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
 }

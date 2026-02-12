@@ -4,7 +4,7 @@
     "Description": "server.items.Ingredient_Processed_Coke.description"
   },
   "Consumable": false,
-  "Icon": "Icons/ItemsGenerated/Processed_Coke_Pulverized.png",
+  "Icon": "Icons/ItemsGenerated/Ingredient_Processed_Coke.png",
   "IconProperties": {
     "Scale": 1.1,
     "Rotation": [

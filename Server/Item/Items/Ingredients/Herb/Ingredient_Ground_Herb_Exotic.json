@@ -3,7 +3,7 @@
     "Name": "server.items.Ingredient_Ground_Herb_Exotic.name",
     "Description": "server.items.Ingredient_Ground_Herb_Exotic.description"
   },
-  "Icon": "Icons/ItemsGenerated/Ingredient_Ground_Herb.png",
+  "Icon": "Icons/ItemsGenerated/Ingredient_Ground_Herb_Exotic.png",
   "Categories": [
     "Get_Hy_Category.Misc",
     "Items.Ingredients"

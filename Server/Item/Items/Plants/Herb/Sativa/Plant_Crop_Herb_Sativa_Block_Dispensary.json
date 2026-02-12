@@ -170,5 +170,18 @@
     },
     "ParticleColor": "#7c10ab"
   },
-  "Quality": "Dispensary_Quality"
+  "Quality": "Dispensary_Quality",
+  "Icon": "Icons/ItemsGenerated/Plant_Crop_Herb_Sativa_Block_Dispensary.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
 }

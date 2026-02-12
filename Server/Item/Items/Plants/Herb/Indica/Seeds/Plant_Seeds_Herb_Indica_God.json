@@ -29,10 +29,10 @@
       -11
     ]
   },
-   "Recipe": {
+  "Recipe": {
     "TimeSeconds": 0,
     "Input": [
-       {
+      {
         "ItemId": "Plant_Seeds_Herb_Indica_Exotic",
         "Quantity": 1
       },

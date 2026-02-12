@@ -24,7 +24,7 @@
   "Model": "Resources/Plants/SeedBag.blockymodel",
   "Texture": "Resources/Plants/SeedBag_Textures/Coke/Coke.png",
   "PlayerAnimationsId": "Item",
-  "Icon": "Icons/ItemsGenerated/Plant_Seeds_Coca.png",
+  "Icon": "Icons/ItemsGenerated/Plant_Seeds_Coke.png",
   "IconProperties": {
     "Scale": 1.1,
     "Rotation": [

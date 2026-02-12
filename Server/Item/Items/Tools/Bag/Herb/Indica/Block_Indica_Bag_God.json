@@ -1,0 +1,110 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Indica_Bag.name",
+    "Description": "server.items.Indica_Bag.description"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Get_Hy_Category.Indica"
+  ],
+  "Icon": "Icons/ItemsGenerated/Block_Indica_Bag_God.png",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      0,
+      245,
+      0
+    ],
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "BlockType": {
+    "BlockSoundSetId": "Cloth",
+    "CustomModel": "Items/Tools/Bag/Herb/Herb_Bag.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Tools/Bag/Herb/Indica/Indica_God_Bag.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "MaxSupportDistance": 8,
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "FaceType": "Shelf",
+          "Support": "Ignored"
+        },
+        {
+          "FaceType": "Shelf",
+          "SelfFaceType": "Shelf"
+        }
+      ],
+      "Up": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "FaceType": "Shelf",
+          "Support": "Ignored"
+        },
+        {
+          "FaceType": "Shelf",
+          "SelfFaceType": "Shelf"
+        }
+      ],
+      "North": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "Material": "Solid",
+    "RotationYawPlacementOffset": "TwoSeventy",
+    "Gathering": {
+      "Harvest": {},
+      "Soft": {}
+    }
+  },
+  "ItemLevel": 2,
+  "MaxStack": 10,
+  "Quality": "God_Quality",
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "Scale": 1.65,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Tool_Empty_Bag",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Herb_Sativa_Bud_God",
+        "Quantity": 10
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Rolling_Station",
+        "Categories": [
+          "Rolling_Station_Paraphernalia"
+        ],
+        "RequiredTierLevel": 0
+      }
+    ],
+    "TimeSeconds": 5,
+    "RequiredMemoriesLevel": 5
+  }
+}

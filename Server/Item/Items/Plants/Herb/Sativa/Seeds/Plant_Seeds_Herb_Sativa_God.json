@@ -32,7 +32,7 @@
   "Recipe": {
     "TimeSeconds": 0,
     "Input": [
-       {
+      {
         "ItemId": "Plant_Seeds_Herb_Sativa_Exotic",
         "Quantity": 1
       },

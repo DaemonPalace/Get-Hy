@@ -168,7 +168,7 @@
       -4.2
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Plant_Crop_Herb_Block.png",
+  "Icon": "Icons/ItemsGenerated/Plant_Crop_Herb_Hybrid_Block.png",
   "Quality": "Junk_Quality",
   "Categories": [
     "Blocks.Plants"

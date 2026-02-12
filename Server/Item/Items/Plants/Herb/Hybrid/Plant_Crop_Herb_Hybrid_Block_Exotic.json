@@ -170,5 +170,18 @@
     },
     "ParticleColor": "#c32836"
   },
-  "Quality": "Exotic_Quality"
+  "Quality": "Exotic_Quality",
+  "Icon": "Icons/ItemsGenerated/Plant_Crop_Herb_Hybrid_Block_Exotic.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
 }

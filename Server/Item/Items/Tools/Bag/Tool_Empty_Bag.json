@@ -3,7 +3,7 @@
     "Name": "server.items.Empty_Bag.name",
     "Description": "server.items.Empty_Bag.description"
   },
-  "Icon": "Icons/ItemsGenerated/Empty_Bag.png",
+  "Icon": "Icons/ItemsGenerated/Tool_Empty_Bag.png",
   "Categories": [
     "Get_Hy_Category.Miscellaneous",
     "Items.Tools"
